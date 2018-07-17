@@ -1,0 +1,18 @@
+[package]
+name = "test-js"
+version = "0.1.0"
+authors = ["seu <seu@panopticon.re>"]
+license = "MIT"
+build = "build.rs"
+
+[lib]
+name = "test_js"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.1.22"
+
+[dependencies]
+neon = "0.1.22"
+neon-runtime = "0.1.22"
+#p8n-types = { path = "../../base/types" }

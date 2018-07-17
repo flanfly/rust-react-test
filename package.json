@@ -1,0 +1,30 @@
+{
+  "name": "test2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/core": "^2.1.1",
+    "@blueprintjs/select": "^2.0.0",
+    "fuzzaldrin-plus": "^0.6.0",
+    "neon-cli": "^0.1.22",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^2.3.1",
+    "xel": "0.0.130"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "native": "neon build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron ."
+  },
+  "main": "src/main.js",
+  "homepage": "./",
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "electron-react-devtools": "^0.5.3"
+  }
+}

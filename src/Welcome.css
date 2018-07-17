@@ -1,0 +1,31 @@
+html, body, #root, .Welcome {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.Welcome-logo {
+  width: 100%;
+  max-width: 450px;
+}
+
+.Welcome-header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+  width: 100%;
+}
+
+.Welcome-panel {
+  margin: 30px auto;
+  width: 600px;
+  background: #fafafa;
+}
+
+.Popover .pt-menu {
+  max-width: 500px;
+  max-height: 350px;
+  overflow-y: scroll;
+}
