@@ -1,3 +1,8 @@
+1. `npm install`
+2. `npm run native`
+3. `npm start`
+4. In another shell `npm run electron`
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
